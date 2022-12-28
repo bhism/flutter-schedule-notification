@@ -116,6 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Future<void> showscheduleNotification() async {
     final moonLanding = DateTime.parse(dtime);
     final details = await _notificationDetails();
+    // ignore: deprecated_member_use
     await _localNotificationservice.showDailyAtTime(
       0,
       'Subscibe Now',
