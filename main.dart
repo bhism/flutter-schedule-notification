@@ -51,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ElevatedButton(
                 onPressed: () async {
                   await showNotification(
-                      id: 1, title: "chei", body: "chai time bro");
+                      id: 1, title: "chai pilo dosto", body: "Tea time bro");
                 },
                 child: Text("show notification"),
               ),
@@ -118,8 +118,8 @@ class _MyHomePageState extends State<MyHomePage> {
     final details = await _notificationDetails();
     await _localNotificationservice.showDailyAtTime(
       0,
-      'Office',
-      'schedulee',
+      'Subscibe Now',
+      'Thank you',
       Time(
         moonLanding.hour,
         moonLanding.minute,
